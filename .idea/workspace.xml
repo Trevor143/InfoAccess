@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d1a5a80-2d97-4326-86ea-542e5d075b80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AdminProfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SMEProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TIPOProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/SMEProfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/TIPOProfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_04_125822_add_foreign_key_to_responses_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_05_071452_create_s_m_e_profiles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_05_071536_create_t_i_p_o_profiles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_05_072010_create_admin_profiles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/sme/profile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tipo/profile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ResponseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ResponseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SMEController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SMEController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_20_071206_create_responses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_04_080114_create_responses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sme/opportunity/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sme/opportunity/details.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sme/opportunity/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sme/opportunity/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="2d1a5a80-2d97-4326-86ea-542e5d075b80" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_04_125822_add_foreign_key_to_responses_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="18" column="68" lean-forward="true" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -106,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_05_071452_create_s_m_e_profiles_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -318,51 +293,6 @@
               <item name="Information" type="b2602c69:ProjectViewProjectNode" />
               <item name="Information" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Information" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Information" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Information" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Information" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Information" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Information" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Information" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Information" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Information" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Information" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Information" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Information" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Information" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Information" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="sme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Information" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Information" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -431,12 +361,12 @@
       <workItem from="1551339234766" duration="1196000" />
       <workItem from="1551678820908" duration="6991000" />
       <workItem from="1551765606224" duration="7169000" />
-      <workItem from="1551786343792" duration="3234000" />
+      <workItem from="1551786343792" duration="3885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178080000" />
+    <option name="totallyTimeSpent" value="178731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="0" width="780" height="871" extended-state="0" />
@@ -729,7 +659,7 @@
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_04_125822_add_foreign_key_to_responses_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="18" column="68" lean-forward="true" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -746,7 +676,7 @@
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_05_071452_create_s_m_e_profiles_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
