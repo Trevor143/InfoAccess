@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateResponsesTable extends Migration
+class CreateAdminProfilesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,12 @@ class CreateResponsesTable extends Migration
      */
     public function up()
     {
-        Schema::create('responses', function (Blueprint $table) {
+        Schema::create('admin_profiles', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('opportunity_id');
-            $table->integer('org_id');
-            $table->text('intro')->nullable();
+            $table->unsignedInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
+            $this->text('contact');
             $table->timestamps();
-
-            $table->foreign('opportunity_id')->references('id')->on('opportunities');
         });
     }
 
@@ -31,6 +29,6 @@ class CreateResponsesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('responses');
+        Schema::dropIfExists('admin_profiles');
     }
 }

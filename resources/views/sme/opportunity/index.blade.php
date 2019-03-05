@@ -31,11 +31,6 @@
                             <tr>
                                 <td colspan="2"> No Opportunities available</td>
                             </tr>
-                            $opport = Opportunity::find($opport_id);
-
-                            $opport->save();
-
-                            return view('sme.opportunity.index');
 
                         @endforelse
                     </table>

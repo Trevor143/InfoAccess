@@ -48,6 +48,7 @@ class ResponseController extends Controller
         $opports = Opportunity::orderBy('created_at', 'desc')->paginate(10);
 
         return view('sme.opportunity.index', compact('opports'))->withMessage('Expressed Interest');
+
     }
 
     /**

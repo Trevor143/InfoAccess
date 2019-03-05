@@ -79,4 +79,13 @@ class RegisterController extends Controller
 
         return $user;
     }
+
+    public function redirectTo(){
+        if(auth()->user()->isAdmin == 1 ){
+            return '/tipo/profile';
+        }
+        else if(auth()->user()->isAdmin == 2 ){
+            return '/sme/profile';
+        }
+    }
 }

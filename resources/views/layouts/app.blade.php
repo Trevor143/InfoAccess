@@ -59,6 +59,14 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    @if(auth()->user()->isAdmin == 1)
+                                        <a class="dropdown-item" href="/tipo/profile">View Profile</a>
+                                    @elseif(auth()->user()->isAdmin == 2)
+                                        <a class="dropdown-item" href="/sme/profile">View Profile</a>
+                                    @else
+                                        <a class="dropdown-item" href="/admin/profile">View Profile</a>
+                                    @endif
+
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -68,6 +76,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
+
                                 </div>
                             </li>
                         @endguest

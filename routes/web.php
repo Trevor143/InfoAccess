@@ -38,12 +38,14 @@ Route::middleware(['Admin'])->prefix('admin')->name('admin.')->group(function ()
 
 Route::middleware(['tipo'])->prefix('tipo')->name('tipo.')->group(function () {
     Route::resource('opportunity', 'TIPOController');
+    Route::get('profile', 'ProfileController@tipo')->name('tipo.profile');
 });
 
 Route::middleware(['sme'])->prefix('sme')->name('sme.')->group(function () {
     Route::resource('opportunity', 'SMEController');
     Route::resource('approval', 'SMEController');
     Route::resource('response', 'ResponseController');
+    Route::get('profile', 'ProfileController@sme')->name('sme.profile');
 //    Route::resource('response', 'OpportunityController');
 });
 

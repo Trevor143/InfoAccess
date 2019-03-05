@@ -9,7 +9,7 @@
                 <div class="card-header">Product Required -> {{$opport->Pdt_Required}}</div>
             </div>
             <div class="card-body">
-        <form method="post" action="{{route('sme.response.store')}}">
+        <form method="post" action="{{route('sme.opportunity.store')}}">
             @csrf
             <fieldset disabled>
             <div class="form-row">

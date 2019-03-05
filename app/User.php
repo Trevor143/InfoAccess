@@ -44,4 +44,16 @@ class User extends Authenticatable
     public function opportunity(){
         return $this->hasMany('App\Opportunity');
     }
+
+    public function profile(){
+        if(auth()->user()->isAdmin == 1){
+            return $this->hasOne('App\TIPOProfile');
+        }
+        elseif(auth()->user()->isAdmin == 2 ){
+            return $this->hasOne('App\SMEProfile');
+        }else{
+            return $this->hasOne('App\AdminProfile');
+        }
+    }
+
 }

@@ -28,4 +28,28 @@ class SMEController extends Controller
 
         return view('sme.opportunity.details', compact('opport', 'responses'));
     }
+
+    public function store(Request $request)
+    {
+        //
+//        $resCheck = Response::all();
+//
+//        if($resCheck->opportunity_id == $request->ref_id && $resCheck->org_id == $request->org_id){
+//            return $this->show($request->ref_id);
+//        }
+//        else {
+            $response = new Response();
+
+            $response->opportunity_id = $request->ref_id;
+            $response->org_id = $request->org_id;
+            $response->intro = "New words to introduce";
+
+            $response->save();
+            $opports = Opportunity::orderBy('created_at', 'desc')->paginate(10);
+
+            return view('sme.opportunity.index', compact('opports'))->withMessage('Expressed Interest');
+//            return $this->index();
+//        }
+
+    }
 }
